@@ -194,7 +194,7 @@ if(userChoice){
 
         if(!isNaN(applesCount)){
             let applePrice = 10;
-            let appleFinalPrice = applePrice*applesCount;
+            let appleFinalPrice = applePrice*applesCount; 
 
             console.log(`Final proce for ${applesCount} = $${appleFinalPrice}.`)
         }
