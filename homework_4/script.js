@@ -31,17 +31,17 @@
 
 // console.log(age);
 
-let dateOfBirth;
+// let dateOfBirth;
 
-do{
-  dateOfBirth = prompt(`Enter year of birth`)
-  dateOfBirth = dateOfBirth;
-}while(!dateOfBirth || isNaN(dateOfBirth));
+// do{
+//   dateOfBirth = prompt(`Enter year of birth`)
+//   dateOfBirth = dateOfBirth;
+// }while(!dateOfBirth || isNaN(dateOfBirth));
 
-console.log(dateOfBirth)
+// console.log(dateOfBirth)
 
-let age = new Date().getFullYear() - dateOfBirth;
-console.log(age);
+// let age = new Date().getFullYear() - dateOfBirth;
+// console.log(age);
 
 // function isValidWord(word) {
 //     // Перевіряємо, чи слово містить цифри
